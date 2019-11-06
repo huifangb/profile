@@ -18,11 +18,11 @@ h1 {
   color: rgb(114, 105, 105);
 }
 
-p{
+p {
   color: rgb(86, 84, 84)
 }
 
-i{
+i {
   font-size: 20px;
 }
 
@@ -45,9 +45,10 @@ h2 {
   width: 80%;
   padding: 10px;
   margin: 20px auto;
+  box-shadow: 0 5px 20px rgba(0,0,0,.1);
 }
 
-.btn-grey{
+.btn-grey {
   background-color: rgb(127, 126, 126);
   border-color: none;
   border-radius: 4px;
@@ -59,7 +60,7 @@ h2 {
   size: 15px;
 }
 
-.list-inline{
+.list-inline {
   list-style: none;
   padding: 0;
   font-size: 12px;
@@ -69,7 +70,7 @@ h2 {
   display: inline-block;
 }
 
-.list-inline li a{
+.list-inline li a {
   list-style: none;
   padding: 0;
   font-size: 15px;
