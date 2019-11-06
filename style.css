@@ -1,0 +1,96 @@
+body {
+
+background-color: rgb(237, 232, 227);
+font-family: 'Montserrat Alternates', sans-serif;
+font-weight: ligth;
+font-size: 15px;
+text-align: center;
+}
+
+#img-round {
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+}
+
+h1 {
+  color: rgb(114, 105, 105);
+}
+
+p{
+  color: rgb(86, 84, 84)
+}
+
+a {
+  text-decoration: none;
+  font-size: 10px;
+  color: rgb(94, 90, 90);
+}
+a:hover {
+  opacity: 50%;
+}
+
+h2 {
+  color: rgb(61, 74, 96);
+  font-size: 14px;
+}
+
+.card-white {
+  background-color: white;
+  width: 80%;
+  padding: 10px;
+  margin: 20px auto;
+}
+
+.btn-grey{
+  background-color: rgb(127, 126, 126);
+  border-color: none;
+  border-radius: 4px;
+  padding: 8px
+}
+
+.btn-grey a {
+  color: white;
+  size: 15px;
+}
+
+.list-inline{
+  list-style: none;
+  padding: 0;
+  font-size: 12px;
+}
+
+.list-inline li {
+  display: inline-block;
+}
+
+.list-inline li a{
+  list-style: none;
+  padding: 0;
+  font-size: 15px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+/*font-family: 'Cairo', sans-serif;
+font-family: 'Montserrat Alternates', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Work Sans', sans-serif;
+*/
